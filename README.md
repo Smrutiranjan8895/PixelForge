@@ -9,7 +9,7 @@ Designed with a focus on clean UI, immersive visuals, and production-level front
 👉 https://pixelforge-game.netlify.app/
 
 ## 💻 GitHub Repository
-👉 [Paste your repo link here]
+👉  https://github.com/Smrutiranjan8895/PixelForge
 
 ---
 
