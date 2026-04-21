@@ -1,0 +1,52 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="armorGradient" x1="165" y1="210" x2="676" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3EC8"/>
+      <stop offset="0.46" stop-color="#FF8A1F"/>
+      <stop offset="1" stop-color="#7A2CFF"/>
+    </linearGradient>
+    <linearGradient id="visorGradient" x1="278" y1="272" x2="608" y2="374" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC3EA"/>
+      <stop offset="0.58" stop-color="#FF7FD8"/>
+      <stop offset="1" stop-color="#AB6AFF"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(441 657) rotate(90) scale(192 254)">
+      <stop stop-color="#FF62D2" stop-opacity="0.92"/>
+      <stop offset="0.58" stop-color="#A94CFF" stop-opacity="0.43"/>
+      <stop offset="1" stop-color="#0F0B17" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurGlow" x="10" y="112" width="879" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="52"/>
+    </filter>
+  </defs>
+
+  <g opacity="0.48" filter="url(#blurGlow)">
+    <ellipse cx="440" cy="572" rx="293" ry="342" fill="#8A3DFF"/>
+  </g>
+
+  <path d="M439.63 178L598.28 269.42L598.28 452.27L439.63 543.69L280.98 452.27L280.98 269.42L439.63 178Z" fill="url(#armorGradient)"/>
+  <path d="M439.37 264L539.45 321.67L539.45 437.02L439.37 494.69L339.3 437.02L339.3 321.67L439.37 264Z" fill="#161022" opacity="0.84"/>
+
+  <path d="M220 502L438 376L656 502V772L438 898L220 772V502Z" fill="url(#armorGradient)"/>
+  <path d="M260 524L438 422L616 524V749L438 851L260 749V524Z" fill="#120D1C" opacity="0.82"/>
+
+  <ellipse cx="440" cy="657" rx="168" ry="184" fill="url(#coreGlow)"/>
+  <circle cx="440" cy="657" r="84" fill="#221833"/>
+  <circle cx="440" cy="657" r="63" fill="url(#armorGradient)"/>
+
+  <path d="M282 336C311 306 354 286 399 278H480C526 286 568 306 597 336V367H282V336Z" fill="#120D1C"/>
+  <path d="M300 330H581V374H300V330Z" fill="url(#visorGradient)"/>
+
+  <path d="M355 430H524V461H355V430Z" fill="#1D1530"/>
+  <path d="M355 430H524V442H355V430Z" fill="url(#visorGradient)"/>
+
+  <path d="M186 607L288 548V708L186 768V607Z" fill="#281C3B"/>
+  <path d="M694 607L592 548V708L694 768V607Z" fill="#281C3B"/>
+
+  <path d="M440 912L571 838V914L440 990L309 914V838L440 912Z" fill="url(#armorGradient)"/>
+
+  <g opacity="0.8">
+    <path d="M195 548L440 406L685 548" stroke="#FFD0F2" stroke-opacity="0.42" stroke-width="8" stroke-linecap="round"/>
+    <path d="M214 777L440 909L666 777" stroke="#9A6CFF" stroke-opacity="0.38" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

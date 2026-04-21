@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelForge Studio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar glass-bar">
+      <a href="#" class="brand" aria-label="PixelForge home">
+        <span class="brand-icon" aria-hidden="true"></span>
+        <span class="brand-text">PixelForge</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#games">Games</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#beta" class="btn btn-primary btn-nav">Join Beta</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-kicker text-sm">FUTURISTIC GAMING STARTUP</p>
+          <h1 class="heading-display hero-title">
+            Crafting <span class="heading-neon">Worlds Beyond Reality</span>
+          </h1>
+          <p class="hero-subtext text-lg text-muted">
+            We create immersive next-gen gaming experiences powered by creativity and technology.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#games" class="btn btn-primary">Explore Games</a>
+            <a href="#trailer" class="btn btn-secondary btn-icon">
+              <span class="play-icon" aria-hidden="true">&#9658;</span>
+              Watch Trailer
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-image-wrap">
+            <img src="assets/hero-character.png" alt="Futuristic game character" class="hero-image" width="900" height="1100" loading="eager" fetchpriority="high" decoding="async">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-section section" id="about">
+      <div class="container why-shell">
+        <header class="why-header reveal-on-scroll" style="--reveal-delay: 70ms;">
+          <h2 class="heading-xl why-title">Why PixelForge?</h2>
+          <p class="text-lg text-muted why-subtitle">Built for players. Designed for immersion.</p>
+        </header>
+
+        <div class="why-grid reveal-on-scroll" style="--reveal-delay: 160ms;">
+          <article class="why-card">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="presentation">
+                <circle cx="12" cy="12" r="8"></circle>
+                <path d="M4 12h16M12 4a13 13 0 0 1 0 16M12 4a13 13 0 0 0 0 16"></path>
+              </svg>
+            </div>
+            <h3 class="heading-md why-card-title">Immersive Worlds</h3>
+            <p class="text-body text-muted why-card-copy">Explore rich, dynamic environments</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="presentation">
+                <rect x="7" y="7" width="10" height="10" rx="2"></rect>
+                <path d="M4 10h3M4 14h3M17 4v3M13 4v3M20 10h-3M20 14h-3M11 20v-3M15 20v-3"></path>
+              </svg>
+            </div>
+            <h3 class="heading-md why-card-title">AI-Driven Gameplay</h3>
+            <p class="text-body text-muted why-card-copy">Smart and adaptive game mechanics</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="presentation">
+                <rect x="3" y="6" width="12" height="8" rx="1.5"></rect>
+                <rect x="17" y="8" width="4" height="10" rx="1"></rect>
+                <path d="M8 17h2"></path>
+              </svg>
+            </div>
+            <h3 class="heading-md why-card-title">Cross-Platform</h3>
+            <p class="text-body text-muted why-card-copy">Play anywhere, anytime</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="presentation">
+                <path d="M12 3l2.1 4.35L19 8.1l-3.5 3.4.82 4.9L12 14.1 7.68 16.4l.82-4.9L5 8.1l4.9-.75L12 3z"></path>
+              </svg>
+            </div>
+            <h3 class="heading-md why-card-title">Indie Innovation</h3>
+            <p class="text-body text-muted why-card-copy">Unique stories and creative freedom</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-games section" id="games">
+      <div class="container games-shell">
+        <header class="games-header reveal-on-scroll" style="--reveal-delay: 80ms;">
+          <p class="games-kicker text-sm">SHOWCASE</p>
+          <h2 class="heading-xl games-title">Featured Games</h2>
+          <p class="text-lg text-muted games-subtitle">Explore our latest immersive creations</p>
+        </header>
+
+        <div class="games-grid">
+          <article class="game-card">
+            <figure class="game-thumb" aria-hidden="true">
+              <img src="assets/game-neon-drift.svg" alt="" loading="lazy" decoding="async" width="320" height="320">
+            </figure>
+            <span class="game-tag">Racing</span>
+            <h3 class="heading-md game-name">Neon Drift</h3>
+            <p class="text-body text-muted game-copy">Velocity-fueled night circuits in a glowing neon skyline.</p>
+          </article>
+
+          <article class="game-card">
+            <figure class="game-thumb" aria-hidden="true">
+              <img src="assets/game-shadow-realm.svg" alt="" loading="lazy" decoding="async" width="320" height="320">
+            </figure>
+            <span class="game-tag">RPG</span>
+            <h3 class="heading-md game-name">Shadow Realm</h3>
+            <p class="text-body text-muted game-copy">Forge your legend through dark mythic realms and lost powers.</p>
+          </article>
+
+          <article class="game-card">
+            <figure class="game-thumb" aria-hidden="true">
+              <img src="assets/game-cyber-siege.svg" alt="" loading="lazy" decoding="async" width="320" height="320">
+            </figure>
+            <span class="game-tag">Shooter</span>
+            <h3 class="heading-md game-name">Cyber Siege</h3>
+            <p class="text-body text-muted game-copy">Lead tactical strikes in a high-tech war for digital control.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase-banner" id="showcase" aria-label="Cinematic game showcase">
+      <div class="container showcase-content reveal-on-scroll" style="--reveal-delay: 80ms;">
+        <h2 class="heading-xl showcase-title">
+          Experience <span class="heading-neon">Next-Gen Gaming</span>
+        </h2>
+        <p class="text-lg text-muted showcase-subtitle">
+          Dive into immersive worlds crafted with passion and cutting-edge technology.
+        </p>
+      </div>
+    </section>
+
+    <section class="cta-section section" id="beta">
+      <div class="container cta-shell reveal-on-scroll" style="--reveal-delay: 120ms;">
+        <h2 class="heading-xl cta-title">Start Your Adventure Today</h2>
+        <p class="text-lg text-muted cta-subtitle">Join thousands of players exploring new worlds.</p>
+        <div class="cta-actions">
+          <a href="#beta" class="btn btn-primary btn-cta-primary">Join Beta</a>
+          <a href="#games" class="btn btn-secondary btn-cta-secondary">Explore Games</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>

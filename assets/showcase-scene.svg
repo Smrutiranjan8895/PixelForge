@@ -1,0 +1,65 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="960" y1="0" x2="960" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1230"/>
+      <stop offset="0.55" stop-color="#0F0B1A"/>
+      <stop offset="1" stop-color="#09090E"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 332) rotate(90) scale(220 280)">
+      <stop stop-color="#FF6EDC" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#9E54FF" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#1A1230" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tower" x1="0" y1="430" x2="0" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22183A"/>
+      <stop offset="1" stop-color="#09090E"/>
+    </linearGradient>
+    <linearGradient id="road" x1="960" y1="620" x2="960" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24183F"/>
+      <stop offset="1" stop-color="#08080D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <ellipse cx="980" cy="332" rx="310" ry="220" fill="url(#sun)"/>
+
+  <g opacity="0.85">
+    <path d="M0 760L220 630L460 700L720 570L980 650L1240 560L1520 650L1760 590L1920 650V1080H0V760Z" fill="#0D0D16"/>
+    <path d="M0 792L220 670L460 734L720 612L980 684L1240 598L1520 688L1760 628L1920 680V1080H0V792Z" fill="#0A0A12"/>
+  </g>
+
+  <g>
+    <rect x="120" y="468" width="124" height="612" fill="url(#tower)"/>
+    <rect x="312" y="388" width="146" height="692" fill="url(#tower)"/>
+    <rect x="542" y="314" width="174" height="766" fill="url(#tower)"/>
+    <rect x="790" y="422" width="126" height="658" fill="url(#tower)"/>
+    <rect x="1028" y="292" width="184" height="788" fill="url(#tower)"/>
+    <rect x="1294" y="360" width="152" height="720" fill="url(#tower)"/>
+    <rect x="1516" y="436" width="124" height="644" fill="url(#tower)"/>
+    <rect x="1704" y="388" width="116" height="692" fill="url(#tower)"/>
+  </g>
+
+  <g opacity="0.82">
+    <path d="M120 560H244" stroke="#6D57FF" stroke-width="6"/>
+    <path d="M120 620H244" stroke="#FF60CF" stroke-width="6"/>
+    <path d="M312 482H458" stroke="#7C65FF" stroke-width="6"/>
+    <path d="M312 546H458" stroke="#4E86FF" stroke-width="6"/>
+    <path d="M542 422H716" stroke="#FF6EDC" stroke-width="7"/>
+    <path d="M542 492H716" stroke="#8C60FF" stroke-width="7"/>
+    <path d="M790 520H916" stroke="#4E86FF" stroke-width="6"/>
+    <path d="M1028 390H1212" stroke="#FF67D3" stroke-width="7"/>
+    <path d="M1028 458H1212" stroke="#7B5AFF" stroke-width="7"/>
+    <path d="M1294 458H1446" stroke="#5A7DFF" stroke-width="6"/>
+    <path d="M1516 526H1640" stroke="#FF67D3" stroke-width="6"/>
+    <path d="M1704 478H1820" stroke="#6D57FF" stroke-width="6"/>
+  </g>
+
+  <path d="M540 1080L840 620H1080L1380 1080H540Z" fill="url(#road)"/>
+  <path d="M948 1080L952 640H968L972 1080H948Z" fill="#D79AFF" opacity="0.8"/>
+
+  <g opacity="0.6">
+    <path d="M815 760H1110" stroke="#B67DFF" stroke-width="3"/>
+    <path d="M765 850H1160" stroke="#7D91FF" stroke-width="3"/>
+    <path d="M710 940H1215" stroke="#FF80D6" stroke-width="3"/>
+  </g>
+</svg>
